@@ -5,6 +5,7 @@ describe('Facebook', function (){
        
     var locat1=browser.driver.findElement(by.xpath("//input[@type='text']"));
         locat1.sendKeys('Manasa');
+
     
     var locat2=browser.driver.findElement(by.xpath("//input[@name='lastname']"));
         locat2.sendKeys('Pathi');
