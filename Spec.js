@@ -1,6 +1,8 @@
+var objects = require("./Objects.json");
+
 describe('Facebook', function (){
     it('dropdown', function(){
-        browser.driver.get('http://www.facebook.com');
+        browser.driver.get(objects.testsiteurl);
         browser.manage().timeouts().implicitlyWait(5000);
        
     var locat1=browser.driver.findElement(by.xpath("//input[@type='text']"));

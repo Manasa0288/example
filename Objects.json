@@ -1,0 +1,17 @@
+{
+    "testsiteurl":"http://www.gmail.com",
+    "Locators":
+    {
+        "loginpage":
+        {
+            "username":"//*[@id='identifierId']",
+            "next":"//*[@id='identifierNext']"
+        },
+        "userdetails":
+        {
+            "username":"manasa0041@gmail.com",
+            "password":"8162580041"
+
+        }
+    }
+}
